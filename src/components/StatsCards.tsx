@@ -32,8 +32,8 @@ export const StatsCards: React.FC = () => {
     },
     {
       title: "Current Stack",
-      main: "Java & Node.js",
-      sub: "Spring Boot & TS",
+      main: "Java & TypeScript",
+      sub: "Spring Boot & Node JS",
       icon: Layers,
       color: "text-emerald-400",
       border: "border-emerald-900/30",
