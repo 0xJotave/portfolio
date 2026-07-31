@@ -107,7 +107,7 @@ export const ENDPOINTS_DATA: Record<EndpointKey, EndpointData> = {
       github: "https://github.com/0xJotave",
       linkedin: "https://linkedin.com/in/0xjotave",
       email: "joaovmb15@gmail.com",
-      portfolio: "https://portfolio-joao.vercel.app",
+      portfolio: "https://0xjotave.me",
       status: "Open To Work"
     }
   }

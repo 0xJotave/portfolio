@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
         <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight">
           João Victor Moura Barbosa
         </h1>
-        <h2 className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-200 to-cyan-400 font-mono">
+        <h2 className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-purple-200 to-cyan-400 font-mono">
           Back-end Engineer
         </h2>
       </motion.div>

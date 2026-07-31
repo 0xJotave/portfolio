@@ -75,7 +75,7 @@ export const ApiExplorer: React.FC = () => {
         </div>
 
 
-        <div className="grid grid-cols-1 md:grid-cols-12 min-h-[460px]">
+        <div className="grid grid-cols-1 md:grid-cols-12 min-h-115">
 
           <div className="md:col-span-4 border-r border-purple-900/20 p-4 bg-[#0e0c18]/60 space-y-2">
             <p className="text-[11px] font-mono text-gray-400 uppercase tracking-wider px-2 mb-3">
@@ -108,7 +108,7 @@ export const ApiExplorer: React.FC = () => {
               </div>
 
 
-              <div className="bg-[#030206] p-5 rounded-xl border border-purple-900/20 min-h-[260px] relative overflow-hidden">
+              <div className="bg-[#030206] p-5 rounded-xl border border-purple-900/20 min-h-65 relative overflow-hidden">
                 <AnimatePresence mode="wait">
                   {isLoading ? (
                     <motion.div
@@ -148,7 +148,7 @@ export const ApiExplorer: React.FC = () => {
                   href="https://github.com/0xJotave"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-purple-950/40 hover:bg-purple-900/60 border border-purple-700/40 text-xs font-mono text-purple-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-purple-950/40 hover:bg-purple-900/60 border border-purple-700/40 text-xs font-mono text-purple-200 transition-all"
                 >
                   <GithubIcon size={14} /> Open GitHub
                 </a>
@@ -156,17 +156,25 @@ export const ApiExplorer: React.FC = () => {
                   href="https://linkedin.com/in/0xjotave"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-cyan-950/40 hover:bg-cyan-900/60 border border-cyan-700/40 text-xs font-mono text-cyan-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-cyan-950/40 hover:bg-cyan-900/60 border border-cyan-700/40 text-xs font-mono text-cyan-200 transition-all"
                 >
                   <LinkedinIcon size={14} /> Open LinkedIn
                 </a>
                 <a
-                  href="/resume.pdf"
+                  href="/resume-en.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all"
                 >
-                  <FileText size={14} /> Download Resume
+                  <FileText size={14} /> Resume (EN)
+                </a>
+                <a
+                  href="/resume-pt.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all"
+                >
+                  <FileText size={14} /> Currículo (PT)
                 </a>
               </motion.div>
             )}
