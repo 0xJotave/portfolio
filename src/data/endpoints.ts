@@ -64,7 +64,7 @@ export const ENDPOINTS_DATA: Record<EndpointKey, EndpointData> = {
         architecture: "Layered Modular Architecture (Domain-driven)",
         stack: ["TypeScript", "Node.js (Express 5)", "Prisma ORM", "PostgreSQL", "Redis", "Zod", "Vitest", "Docker", "Swagger"],
         highlights: [
-          "Garantia de idempotência no webhook com $transaction impedindo race conditions (409 Conflict)",
+          "Garantia de idempotência no webhook com $transaction impedindo race conditions",
           "Cache de leitura com Redis e invalidação automática em mutations",
           "Suíte de 18 testes automatizados unitários e de integração com Vitest",
           "Documentação interativa Swagger/OpenAPI integradas"
@@ -75,7 +75,7 @@ export const ENDPOINTS_DATA: Record<EndpointKey, EndpointData> = {
         id: "pwnned",
         title: "PWNNED",
         category: "Architecture Lab",
-        context: "🛡️ Projeto Pessoal / CyberSec",
+        context: "Projeto Pessoal / CyberSec",
         tagline: "Plataforma EdTech para Hacking Ético e CyberSecurity",
         architecture: "Hexagonal Architecture (Ports & Adapters)",
         stack: ["Java 21", "Spring Boot", "PostgreSQL", "MongoDB", "Redis", "Docker"],
