@@ -44,7 +44,7 @@ export const ENDPOINTS_DATA: Record<EndpointKey, EndpointData> = {
         id: "event-manager",
         title: "EventManager",
         category: "Architecture Lab",
-        context: "🔬 Lab de Estudo & Arquitetura",
+        context: "Lab de Estudo & Arquitetura",
         tagline: "Sistema Distribuído de Gestão de Eventos e Venda de Ingressos",
         architecture: "Hexagonal Architecture & Clean Architecture",
         stack: ["Java 21", "Spring Boot 3.4.3", "Spring Cloud Gateway", "Keycloak", "Kafka", "MongoDB", "Redis", "Docker"],
