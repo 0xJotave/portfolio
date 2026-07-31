@@ -17,7 +17,7 @@ export const EndpointButton: React.FC<EndpointButtonProps> = ({
   return (
     <button
       onClick={onClick}
-      className={`w-full text-left p-3.5 rounded-lg border font-mono text-xs transition-all duration-200 flex items-center justify-between ${
+      className={`w-full text-left p-3.5 rounded-lg border font-mono text-xs cursor-pointer transition-all duration-200 flex items-center justify-between ${
         isSelected
           ? "bg-purple-950/50 border-purple-500/60 text-white shadow-md shadow-purple-950/50"
           : "bg-black/20 border-purple-900/10 text-gray-400 hover:border-purple-800/40 hover:text-gray-200"
