@@ -59,7 +59,7 @@ export const ENDPOINTS_DATA: Record<EndpointKey, EndpointData> = {
         id: "beworke-payment-api",
         title: "Beworke Payment API",
         category: "Technical Challenge",
-        context: "🎯 Case Técnico de Seleção",
+        context: "Case Técnico de Seleção",
         tagline: "API REST de Processamento de Pagamentos e Webhooks Idempotentes",
         architecture: "Layered Modular Architecture (Domain-driven)",
         stack: ["TypeScript", "Node.js (Express 5)", "Prisma ORM", "PostgreSQL", "Redis", "Zod", "Vitest", "Docker", "Swagger"],

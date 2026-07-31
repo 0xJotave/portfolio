@@ -92,7 +92,7 @@ export const ApiExplorer: React.FC = () => {
           </div>
 
 
-          <div className="md:col-span-8 p-6 flex flex-col justify-between bg-[#07060c] relative">
+          <div className="md:col-span-8 p-6 flex flex-col justify-start bg-[#07060c] relative">
             <div>
 
               <div className="flex items-center justify-between gap-2 bg-[#12101f] p-3 rounded-xl border border-purple-900/30 mb-4 font-mono text-xs">
