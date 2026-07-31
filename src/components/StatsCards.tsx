@@ -41,7 +41,7 @@ export const StatsCards: React.FC = () => {
   ];
 
   return (
-    <section className="w-full max-w-5xl mx-auto px-4 pb-12">
+    <section className="w-full max-w-6xl mx-auto px-4 pb-12">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {cards.map((card, idx) => {
           const Icon = card.icon;

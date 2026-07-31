@@ -19,7 +19,7 @@ const LinkedinIcon = () => (
 export const Footer: React.FC = () => {
   return (
     <footer className="w-full border-t border-purple-900/20 bg-[#07060c] py-8 px-4 text-xs font-mono text-gray-400">
-      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p>© {new Date().getFullYear()} João Victor Moura Barbosa. Built with Next.js 15 & React.</p>
         
         <div className="flex items-center gap-5">

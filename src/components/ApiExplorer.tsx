@@ -44,7 +44,7 @@ export const ApiExplorer: React.FC = () => {
   };
 
   return (
-    <section className="w-full max-w-5xl mx-auto px-4 pb-16">
+    <section className="w-full max-w-6xl mx-auto px-4 pb-16">
       <div className="bg-[#0b0a12]/90 border border-purple-900/30 rounded-2xl overflow-hidden shadow-2xl backdrop-blur-xl">
 
         <div className="bg-[#12101e] px-5 py-3.5 border-b border-purple-900/30 flex flex-wrap items-center justify-between gap-4">
@@ -148,7 +148,7 @@ export const ApiExplorer: React.FC = () => {
                   href="https://github.com/0xJotave"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-purple-950/40 hover:bg-purple-900/60 border border-purple-700/40 text-xs font-mono text-purple-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-purple-950/40 hover:bg-purple-900/60 border border-purple-700/40 text-xs font-mono text-purple-200 transition-all whitespace-nowrap"
                 >
                   <GithubIcon size={14} /> Open GitHub
                 </a>
@@ -156,7 +156,7 @@ export const ApiExplorer: React.FC = () => {
                   href="https://linkedin.com/in/0xjotave"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-cyan-950/40 hover:bg-cyan-900/60 border border-cyan-700/40 text-xs font-mono text-cyan-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-cyan-950/40 hover:bg-cyan-900/60 border border-cyan-700/40 text-xs font-mono text-cyan-200 transition-all whitespace-nowrap"
                 >
                   <LinkedinIcon size={14} /> Open LinkedIn
                 </a>
@@ -164,7 +164,7 @@ export const ApiExplorer: React.FC = () => {
                   href="/resume-en.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all whitespace-nowrap"
                 >
                   <FileText size={14} /> Resume (EN)
                 </a>
@@ -172,7 +172,7 @@ export const ApiExplorer: React.FC = () => {
                   href="/resume-pt.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all"
+                  className="flex-1 min-w-35 flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-700/40 text-xs font-mono text-emerald-200 transition-all whitespace-nowrap"
                 >
                   <FileText size={14} /> Currículo (PT)
                 </a>

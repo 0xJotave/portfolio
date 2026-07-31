@@ -19,7 +19,7 @@ const BADGES = [
 
 export const Hero: React.FC = () => {
   return (
-    <header className="w-full max-w-5xl mx-auto pt-16 pb-12 px-4 flex flex-col items-start gap-6 relative">
+    <header className="w-full max-w-6xl mx-auto pt-16 pb-12 px-4 flex flex-col items-start gap-6 relative">
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
