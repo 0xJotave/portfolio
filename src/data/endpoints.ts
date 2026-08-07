@@ -105,8 +105,8 @@ export const ENDPOINTS_DATA: Record<EndpointKey, EndpointData> = {
     description: 'Canais de comunicação e redes profissionais',
     response: {
       github: "https://github.com/0xJotave",
-      linkedin: "https://linkedin.com/in/0xjotave",
-      email: "joaovmb15@gmail.com",
+      linkedin: "https://linkedin.com/in/eujotave",
+      email: "contato.eujotave@proton.me",
       portfolio: "https://0xjotave.me",
       status: "Open To Work"
     }
